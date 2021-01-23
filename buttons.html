@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head> <link href="/css/buttons.css" rel="stylesheet"></head>
+    <head> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/cours_css/css/buttons.css" rel="stylesheet">
+    </head>
   <body>
+      <div>
     <h1>Gestions des tickets</h1>
     <ul style="list-style-type: none; display: flex; flex-direction: column;">
       <li>
-        <button type="button" onclick="alert('Liste des utilisateurs')">
+        <div class="btn-group-vertical">
+        <button type="button"style="margin-bottom: 20px;" onclick="alert('Liste des utilisateurs')">
           Utilisateurs
         </button>
       </li>
       <li>
-        <button type="button" onclick="alert('Clients')">Clients</button>
+        <button type="button" style="margin-bottom: 20px;" onclick="alert('Clients')">Clients</button>
       </li>
       <li>
-        <button type="button" onclick="alert('Projets')">Projets</button>
+        <button type="button" style="margin-bottom: 20px;" onclick="alert('Projets')">Projets</button>
       </li>
       <li>
-        <button type="button" onclick="alert('Tickets')">Tickets</button>
+        <button type="button" style="margin-bottom: 20px;" onclick="alert('Tickets')">Tickets</button>
       </li>
       <li>
-        <button type="button" onclick="alert('Statistiques')">
+        <button type="button" style="margin-bottom: 20px;" onclick="alert('Statistiques')">
           Statistiques
         </button>
       </li>
     </ul>
+    </div>
+</div>
   </body>
 </html>
