@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: aliceblue">
+    <div class="container" style="margin-top: 3em">
+      <h2 style="margin-bottom: 40px"></h2>
+      <div class="card" style="color: black">
+        <div class="card-header" style="font-size: 20px">
+          Sélectionner un utilisateur :
+        </div>
+        <div class="card-body" style="height: 500px"></div>
+      </div>
+      <form>
+        <div class="form-group" style="margin-top: 2em; height: 40%">
+          <h1 style="font-size: 25px; margin-bottom: 1em">
+            <u>Modifier un utilisateur</u>
+          </h1>
+          <label for="exampleInputEmail1">Entrez un nouveau Nom</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="form-group">
+          <label>Entrez un nouveau prénom</label>
+          <input type="form" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label>Entrez un nouvel indentifiant</label>
+          <input type="form" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"
+            >Choississez un nouveau mot de passe</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Nous ne partagerons pas vos données.</small
+          >
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >J'approuve mes choix</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Enregistrer</button>
+      </form>
+    </div>
+  </body>
+</html>
